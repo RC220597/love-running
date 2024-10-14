@@ -47,7 +47,7 @@ h1 {
     letter-spacing: 4px;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -68,7 +68,7 @@ nav {
 }
 
 /* Nav Toggle*/
-#nav-toggle:checked~nav{
+#nav-toggle:checked~nav {
     display: block;
 }
 
@@ -76,7 +76,7 @@ nav {
     display: none;
 }
 
-.nav-toggle-label{
+.nav-toggle-label {
     font-size: 2rem;
 }
 
@@ -91,7 +91,8 @@ footer {
 }
 
 /*media query: tablets and larger (768px and up)*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
+
     /*Header*/
     nav {
         display: block;
@@ -105,7 +106,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -118,8 +119,8 @@ footer {
     }
 }
 
-@media screen and (min-width: 992px){
-    #menu a:hover{
+@media screen and (min-width: 992px) {
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
