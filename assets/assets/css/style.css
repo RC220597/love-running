@@ -38,6 +38,11 @@ h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
+/*Header*/
 header a {
     text-decoration: none;
     color: inherit;
@@ -157,6 +162,28 @@ main {
     align-items: center;
     justify-content: center;
 
+}
+/*meetup times section*/
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center / cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color:rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /*this will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the avilable space on its row*/
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+}
+/*override heading color set in general styles*/
+#times h3 {
+    color: #fafafa;
 }
 
 /*footer*/
